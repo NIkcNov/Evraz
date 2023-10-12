@@ -1,8 +1,42 @@
+<html>
 <head>
-    <link rel="stylesheet" href="README.css">
-    <div id="sidebar">
-
-    </div>
-
-
+    <title>Ширина</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        #layer1_1{
+            width: 101%; /* Ширина первого слоя */
+            padding: 2px; /* Поля вокруг текста */
+            background: #967400; /* Цвет фона */
+        }
+        #layer1 {
+            width: 100%; /* Ширина первого слоя */
+            padding: 50px; /* Поля вокруг текста */
+            background: #ffec8c; /* Цвет фона */
+        }
+        #layer2_1{
+            width: 100%; /* Ширина первого слоя */
+            padding: 2px; /* Поля вокруг текста */
+            background: #004104; /* Цвет фона */
+        }
+        #layer2 {
+            width: 100%; /* Ширина второго слоя */
+            background: #00ff16; /* Цвет фона */
+        }
+        #layer2 P {
+            padding: 10px; /* Поля вокруг параграфа */
+        }
+        #layer3 {
+            background: #3ca; /* Цвет фона третьего слоя */
+            padding: 10px; /* Поля вокруг текста */
+        }
+    </style>
 </head>
+<body>
+<div id="layer1_1">Заголовок</div>
+<div id="layer1">Фамилия-Петров
+<br>    Имя-Пётр <br> Отчество-Петрович</div>
+<br>
+<div id="layer2_1">Заголовок</div>
+<div id="layer2"><p>  Lorem ipsum dolor sit amet...</p></div>
+<div id="layer3">Lorem ipsum dolor sit amet...</div>
+</body>
